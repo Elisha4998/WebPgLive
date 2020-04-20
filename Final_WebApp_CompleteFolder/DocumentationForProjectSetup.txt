@@ -1,0 +1,14 @@
+Steps to use the project :
+1. Download live-data folder
+2. Copy paste the entire live-data folder in this path			
+	xampp>>htdocs
+3. Start your XAMPP server from the XAMPP Panel and open PhpMyAdmin
+4. In PhpMyAdmin create a database with the name - userregistration
+   Create table - usertable
+   Column names and type -
+    name - varchar(50)
+    password - varchar(50)
+5. Open browser and type the url - http://localhost/live-data/login.php
+6. Register a new user with a name - Admin and password - admin.For this user it will open Index.php
+ 			      name - gsat and password - gsat.For this user it will open gsat.php
+  		
