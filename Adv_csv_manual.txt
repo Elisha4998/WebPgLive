@@ -1,0 +1,9 @@
+Advanced CSV generation from database manua:
+
+CSV file location : C:\Users\personal_username\eclipse-workspace\package_name\
+Database used : userregistration db used for login
+Table used : usertable from userregistration db
+
+Multiple tables can be created in one database and multiple tables from that database can be passed to export() in the program as a parameter to be converted into csv files.
+
+If we update the database and run the program, the CSV file gets updated accordingly. 
