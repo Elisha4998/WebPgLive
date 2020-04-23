@@ -33,6 +33,8 @@ public class AdvancedDb2CsvExporter {
               
              while (result.next()) {
                  String line = "";
+                  // Make sure you extract only One line from DB Table and Write that into CSV.. i'm not sure this is the right place.. 
+                  // Another thing.. This Java App should keep running and never exit.. if you have hit the last line of DB, go back and pick the first line.. have atleast 4-5 sec delay between csv updates
                   
                  for (int i = 1; i <= columnCount; i++) {
                      Object valueObject = result.getObject(i);
